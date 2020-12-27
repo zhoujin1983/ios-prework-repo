@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func DidTapButton(_ sender: Any) {
-        textLabel.textColor = UIColor.orange
+        textLabel.textColor = UIColor.yellow
     }
     
     @IBAction func didTapViewButton(_ sender: Any) {
@@ -31,7 +31,12 @@ class ViewController: UIViewController {
     }
     @IBAction func didTapTextButton(_ sender: Any) {
         //textLabel.text = "Goodbye!!"
+        if textfield.text?.isEmpty ?? true{
+            textLabel.text = "Goodbye" + "\u{1F44B}"
+        }
+        else{
         textLabel.text = textfield.text
+        }
         textfield.text = ""
         view.endEditing(true)
     }
