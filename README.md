@@ -2,10 +2,12 @@
 ## Simple UI
 
 ### App Description
-`TODO://` Add app description
+This simple app will use user input and replace it in the textbox. If it is empty, use default goodby. 
+You can also change the text color to yellow and background view to red. 
+If click elsewhere, it will go back to the old setting. 
+All feature including the optional is implemented here. 
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
 <img src="QACMU7yP7z.gif" width=200><br>
 
